@@ -1,0 +1,79 @@
+
+Para ver o preview da apresentação no viewer
+
+xaringan::inf_mr()
+
+Esse é um texto com uma palavra destacada em **negrito**.
+
+Esse é um texto com uma palavra destacada em __negrito__.
+
+Esse é um texto com uma palavra ~~riscada/tachada~~.
+
+# Título 1
+
+Listas
+
+1. Maçã
+
+1. Banana
+
+1. Uva
+
+   ou
+   
+- Maçã
+
+- Banana
+
+- Uva
+
+Links
+
+Você pode consultar mais [materiais sobre R nesta página](https://beatrizmilz.github.io/slidesR/).
+
+Tabelas
+
+|  a|  b|  c|
+|--:|--:|--:|
+|  1|  2|  3|
+|  2|  3|  4|
+
+
+
+
+Para compartilhar em PDF, é possível converter o HTML em PDF com a função
+pagedown::chrome_print("index.html")
+
+ou
+
+knit: pagedown::chrome_print
+
+temas xaringan
+install.packages("xaringanthemer")
+
+
+Colocar Gif
+
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="400" height="400" />
+
+ou com giphyr
+
+giphyr:::gif_Addin()
+
+<iframe src='//gifs.com/embed/login-qQx0XR' frameborder='0' scrolling='no' width='352px' height='740px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
+
+-Colocar Foto
+![](img/landscape.jpg)
+
+<!--<p align="left">
+    <img src="img/background.png" alt="Image" width="960" height="960"/>
+</p>-->
+
+palavras clicaveis
+[RStudio](https://rstudio.com/)
+
+cv-https://github.com/beatrizmilz/resume
+
+https://github.com/nstrayer/cv
+
+apn rladies-https://github.com/R-Ladies-Sao-Paulo/xaringan
