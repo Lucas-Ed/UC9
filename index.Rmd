@@ -2,7 +2,7 @@
 title: "Apresentação protótipos"
 subtitle: ""
 institute: "Senai-Limeira"
-date: "2021/09/28"
+date: "2021/10/05"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -20,7 +20,7 @@ output:
 
 ---
 <p align="center">                        <!--largura--> <!--Altura-->
-    <img src="img/tablet.png" alt="Image" width="400" height="550" />
+    <img src="img/tab.png" alt="Image" width="550" height="450" />
 </p>
 
 ---
@@ -60,5 +60,3 @@ Ex.: Por quê o site apresenta usabilidade, é funcional e intuitivo?
 <p align="center">
     <img src="img/xa.png" alt="Image" width="650" height="450" />
 </p>
-
-
