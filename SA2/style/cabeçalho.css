@@ -1,0 +1,32 @@
+.topo{
+background-color: blue;
+height:280px ;/*Altura*/
+width: 100%;/*Largura*/
+}
+.divlogo{
+    background-color:lavender;
+    height: 180px;/*Altura*/
+    width: 300px;/*Largura*/
+    margin-left: 20px;
+    margin-top: -45px;
+}
+.pesquisa{
+    background-color:lawngreen;
+    height: 40px;px ;/*Altura*/
+    width: 270px;/*Largura*/
+    margin-left: 1500px;
+}
+.menudiv{
+    background-color: floralwhite;
+    height: 50px;px ;/*Altura*/
+    width: 1400px;/*Largura*/
+    margin-left: 340px;
+    margin-top: 80px;
+}
+.frase{
+    background-color:grey;
+    height: 100px;px ;/*Altura*/
+    width: 1100px;/*Largura*/
+    margin-left: 340px;
+    margin-top: -180px;
+}
