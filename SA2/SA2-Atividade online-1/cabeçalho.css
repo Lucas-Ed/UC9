@@ -1,0 +1,83 @@
+.topo{
+background-color:#121314;
+height:280px ;/*Altura*/
+width: 1500px;/*Largura*/
+}
+.divlogo{
+    
+    height: 180px;/*Altura*/
+    width: 300px;/*Largura*/
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.pesquisa{
+    
+    height: 40px;/*Altura*/
+    width: 270px;/*Largura*/
+    margin-left: 1400px;
+}
+.menudiv{
+    /*background-color: floralwhite;*/
+    height: 50px;/*Altura*/
+    width: 1150px;/*Largura*/
+    margin-left: 340px;
+    margin-top: -5px;
+    
+}
+#menus{
+    padding: 5px 95px;
+    display: inline-block;
+    color: #ffffff;
+    }
+.frase{
+    height: 30px; /*Altura*/
+    width: 750px;/*Largura*/
+    margin-left: 300px;
+    margin-top: -320px;
+}
+/*-------Input procurar---------------------*/
+.search-box{
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    background: #ffffff;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.search-btn{
+    color: rgb(47, 255, 47);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #353b48;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width:0px;
+    text-align: center;
+    margin-top: -10px;
+    
+}
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+    background: white;
+}
+/*------------------------------------------*/

@@ -1,0 +1,101 @@
+<div id="col4"><!--Inicio div copy rodapé-->
+        <a class="copy"> © Copyright 2021 - 2022 Lucas Eduardo Rosolem - Todos os direitos reservados.</a></div><!--fim div copy rodapé-->
+<div><!--Inicio div logo rodapé-->
+        <img src="img/logo.png" width="50" height="50" class="logoroda"></div><!--fim div logo rodapé-->   
+        <div id="col3"><!--Inicio div redes sociais-->
+            <img src="img/you.png" width="50" height="50" class="you">
+            <a class="rdp" href="https://youtube.com/" target="_blank">Youtube</a><br />
+            <img src="img/insta.png" width="45" height="40" class="insta">
+            <a class="rdp" href="https://instagram.com/" target="_blank">Instagram</a><br />
+            <img src="img/face.png" width="45" height="45" class="face">
+            <a class="rdp" href="https://facebook.com/" target="_blank">Facebook</a><br />
+            <img src="img/twitter.png" width="45" height="45" class="twitter">
+            <a class="rdp" href="https://www.twiter.com">Twiter</a><br />
+        <br />
+        </div><!--fim div redes sociais-->
+    
+    
+     <div id="pag"><img src="img/pag.png" width="500" height="200" class="pag"></div>
+
+
+.logoroda{
+        margin-left: 1280px;
+        margin-top: 240px;
+
+    }
+    #col3{
+        min-width: 120px;	
+        padding-top: 0px;	
+        top: 0px;
+        margin-top: -280px;
+        width: 170px;
+        padding-left: 5px;
+        padding-right: 0px;
+        height: 55px;
+        display: inline-block;
+        text-align: left;
+        line-height: 55px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        position: relative;   
+        margin-left: 250px;
+        margin-top: 800px ;
+        }
+    #col4{
+        background-color: blue;
+        text-align: center;
+        min-width: 120px;	
+        padding-top: 0px;	
+        margin-bottom:  50px;
+        width: 180px;
+        padding-left: 0px;
+        padding-right: 20px;
+        height: 55px;
+        font-size: 12px;
+        position: relative; 
+        margin-bottom: -100px;  
+        margin-left: 450px;
+        }
+        .copy{
+            color: #ffff;
+            text-align: center;
+            padding-right: 20px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .rdp:link {
+        text-decoration: none;
+        color: white;	
+        }
+        .rdp:visited {
+        text-decoration: none;
+        color: white;
+        }
+        .rdp:hover {
+        letter-spacing: 3px;
+        color: white;
+        -webkit-transition: 0.2s ease-out;
+        -moz-transition: 0.2s ease-out;
+        -o-transition: 0.2s ease-out;
+        transition: 0.2s ease-out;
+        }
+        .you{
+            margin-left: -190px;
+            margin-top: -280;
+        }
+        .insta{
+            margin-left: -190px;
+            margin-top: -250;
+        }
+        .face{
+            margin-left: -190px;
+            margin-top: -265;
+        }
+        .twitter{
+            margin-left: -190px;
+            margin-top: -275;
+        }
+        #pag{
+            margin-left: 550px;
+            margin-top: -300px; 
+        }
+        

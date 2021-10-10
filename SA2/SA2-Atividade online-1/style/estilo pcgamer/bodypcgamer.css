@@ -1,0 +1,36 @@
+    
+.corpo{
+    background-color:#111111de;
+    height:900px;/*Altura*/
+    width: 1500px;/*Largura*/
+    margin-top: -70px;
+}
+.container{
+    background-color:red;
+    height:600px;/*Altura*/
+    width: 1400px;/*Largura*/
+}
+.produto1{
+    background-color: floralwhite;
+    height: 450px;/*Altura*/
+    width: 25%;/*Largura*/
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right:40px;
+    
+}
+.produto2{
+    background-color: #e41b1b;
+    height: 450px;/*Altura*/
+    width: 25%;/*Largura*/
+    margin-top: -450px;
+    margin-left: 480px;
+    margin-right:40px;
+}
+.produto3{
+    background-color: #1bdde4;
+    height: 450px;/*Altura*/
+    width: 25%;/*Largura*/
+    margin-top: -450px;
+    margin-left: 900px;
+}

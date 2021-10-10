@@ -1,0 +1,20 @@
+.corpo{
+    background-color:#111111de;
+    height:1500px;/*Altura*/
+    width: 1500px;/*Largura*/
+}
+.carrosel1{
+    background-color:honeydew;
+    height: 450px;px ;/*Altura*/
+    width: 100%;/*Largura*/
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.carrosel2{
+    background-color:honeydew;
+    height: 450px;px ;/*Altura*/
+    width: 100%;/*Largura*/
+    margin-top: 200px;
+    margin-right: 5px;
+
+}

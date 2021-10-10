@@ -1,0 +1,38 @@
+
+.historia{
+    background-color: floralwhite;
+    height: 450px;px ;/*Altura*/
+    width: 1235px;/*Largura*/
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right:40px;
+    
+}.corpo{
+    background-color:#111111de;
+    height:1500px;/*Altura*/
+    width: 1500px;/*Largura*/
+}
+.missao{
+    background-color: floralwhite;
+    height: 450px;px ;/*Altura*/
+    width: 25%;/*Largura*/
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right:40px;
+    
+}
+.visao{
+    background-color: #e41b1b;
+    height: 450px;/*Altura*/
+    width: 25%;/*Largura*/
+    margin-top: -450px;
+    margin-left: 480px;
+    margin-right:40px;
+}
+.valores{
+    background-color: #1bdde4;
+    height: 450px;/*Altura*/
+    width: 25%;/*Largura*/
+    margin-top: -450px;
+    margin-left: 900px;
+}

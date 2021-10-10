@@ -1,0 +1,44 @@
+.corpo{
+    background-color:#111111de;
+    height:1400px;/*Altura*/
+    width: 1600px;/*Largura*/
+}
+.menu1{
+    background-color: floralwhite;
+    height: 900px;px ;/*Altura*/
+    width: 25%;/*Largura*/
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right:20px;
+    
+}
+.produto2{
+    background-color: #e41b1b;
+    height: 450px;/*Altura*/
+    width: 25%;/*Largura*/
+    margin-top: -850px;
+    margin-left: 600px;
+    margin-right:20px;
+}
+.produto3{
+    background-color: #1bdde4;
+    height: 450px;/*Altura*/
+    width: 25%;/*Largura*/
+    margin-top: -450px;
+    margin-left: 1050px;
+}
+.produto4{
+    background-color: #e41b1b;
+    height: 450px;/*Altura*/
+    width: 25%;/*Largura*/
+    margin-top: 150px;
+    margin-left: 600px;
+    margin-right:20px;
+}
+.produto5{
+    background-color: #1bdde4;
+    height: 450px;/*Altura*/
+    width: 25%;/*Largura*/
+    margin-top: -450px;
+    margin-left: 1050px;
+}
