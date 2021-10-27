@@ -1,3 +1,3 @@
 # UC9
-Repositório para cumprir o exercicíos de prototipagem de layout- UC9 do curso Front End Senai.
-A apresentação dos layouts podem ser vistas [aqui.](https://bit.ly/3EWTH8W)
+Implementação de funcionalidades na página do tipo formulário, para layout de desktop, aplicando a linguagem de programação JavaScript. 
+Exercício para cumprir a atividade SA2 - Encontro Presencial 3 do curso Frontend no Senai-Limeira o resultado do exercício você pode conferrir [aqui.](https://bit.ly/2ZpIpK8)
