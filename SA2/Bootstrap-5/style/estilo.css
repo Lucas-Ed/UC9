@@ -1,0 +1,262 @@
+.container-fluid {
+  background-color: #121314;
+  max-height: 9000px;   
+}
+/*------------------------------------------------------------------*/
+  /*------------------medias querys-Fundo--------------------------*/
+
+
+  
+  /*---------------------------------------------------------------*/
+ /*--------------------Div's Footer------------------------------*/
+ .div1{
+  background-color: #121314;
+  border: 2px solid rgb(245, 6, 30);
+  max-height: 300px;/*Altura*/
+}
+ /*---------Copy--------------*/
+ .footer-copy {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.copy{
+  margin-left: 500px;
+}
+ /*-------------------------*/
+ .div2{
+  background-color: #121314;
+  border: 2px solid rgb(255, 0, 234);
+  max-height: 50px;/*Altura*/
+  max-width: 20px;
+  margin-left: 400px;
+
+}
+.div3{
+  background-color: #121314;
+  border: 2px solid rgb(245, 121, 6);
+  max-height: 200px;/*Altura*/
+  /*margin-left: 800px;*/
+}
+.h3 {
+  color: white;
+  font-size: 12px;
+}
+/*------Redes-Sociais--------------*/
+.div4{
+  background-color: #121314;
+  border: 2px solid rgb(10, 6, 245);
+  max-height: 200px;/*Altura*/
+  max-width: 200px;
+}
+#col3{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.rdp:link {
+  text-decoration: none;
+  color: white;
+}
+
+.rdp:visited {
+  
+  text-decoration: none;
+  color: white; 
+  
+}
+
+.rdp:hover {
+  letter-spacing: 3px;
+  color: white;
+  -webkit-transition: 0.2s ease-out;
+  -moz-transition: 0.2s ease-out;
+  -o-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+}
+
+#you{
+    font-size: 20px;
+}
+#insta{
+  font-size: 20px;
+}
+#face{
+  font-size: 20px;
+}
+#you{
+  font-size: 20px;
+}
+#twiter{
+  font-size: 20px;
+}
+ /*-------------------------*/
+/*------Atendimento---------*/
+ .div5{
+  background-color: #121314;
+  border: 2px solid rgb(213, 245, 6);
+  max-height: 200px;/*Altura*/
+  color: white;
+}
+.footer-box__contato {
+  background-color: #121314;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+
+/*.footer-box__contato :is(img) {
+  margin-left: 20px;
+}*/
+
+.footer-box__contato :is(div),
+.footer-box__contato :is(span) {
+  margin: 5px 30px 0 20px;
+  display: flex;
+  align-items: center;
+  border: 0px solid;
+  color: white;
+  /*  
+  margin-top: 100px;
+  margin-left: 50px; 
+  Quebrando !
+  */
+}
+ /*-------------------------*/
+/*-------Vazio-Footer-------*/
+.div6{
+  background-color: #121314;
+  border: 2px solid rgb(213, 199, 8);
+  max-height: 300px;/*Altura*/
+  max-width: 100%;
+  margin-left: 0px;
+}
+ /*-------------------------*/
+/*--------Carousel-2-------*/
+.div7{
+  background-color: #292828de;
+  border: 2px solid rgb(239, 240, 235);
+  max-height: 1850px;/*Altura*/
+}
+.carrosel2{
+  background-color:honeydew;
+  height: 220px;/*Altura*/
+  width: 95%;/*Largura*/
+  margin-top: 0px;
+  margin-left: 10px;
+  align-items:center;
+  margin-left: 40px;
+}
+ /*-------------------------*/
+/*--------Carousel-1-------*/
+.div8{
+  background-color: #292828de;
+  border: 2px solid rgb(26, 245, 6);
+  max-height: 1850px;/*Altura*/
+}
+.carrosel1{
+  background-color:honeydew;
+  height: 220px;/*Altura*/
+  width: 95%;/*Largura*/
+  margin-top: 0px;
+  margin-left: 10px;
+  align-items:center;
+  margin-left: 40px;
+}
+ /*-------------------------*/
+/*----banner-topo-----------*/
+.banner-topo{
+  background-color:honeydew;
+  height: 150px;/*Altura*/
+  width: 100%;/*Largura*/
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.div9{
+  background-color: #292828de;
+  border: 2px solid rgb(205, 6, 245);
+  max-height: 1850px;/*Altura*/
+}
+/*-------------------------*/
+/*---------Header---------*/
+.topo-menu{
+  border: 1px solid #e9f504;
+  /*background-color:#121314;*/
+  height: 180px;/*Altura*/
+  margin-left: 0px;
+  width: 100%;
+}
+.topo-menu1{
+  border: 1px solid #04ddf5;
+  /*background-color:#121314;*/
+  height: 450px;/*Altura*/
+  margin-left: 0px;
+  width: 100%;
+}
+.div1-1{
+  border: 1px solid #0ef41d;
+  min-height: 40px;
+  min-width: 70%;
+}
+.div2-1{
+  border: 1px solid #d5f40e;
+  min-height: 40px;
+  min-width: 30%;
+}
+.div3-1{
+  border: 1px solid #f40e0e;
+  min-height: 40px;
+  min-width: 30%;
+  margin-left: 50px;
+}
+.div4-2{
+  border: 1px solid #f48c0e;
+  min-height: 40px;
+  min-width: 20%;
+}
+.div5-2{
+  border: 1px solid #0ee5f4;
+  min-height: 40px;
+  min-width: 20%;
+}
+
+
+/*-------Menu-----------*/
+.menu-div{
+  border: 1px solid #1906f2;
+  margin-left: 0px;
+  width:100%;
+  height: 120px;
+  top:40px;
+}
+.hamb-div{
+  margin-left: 0%;
+  width: 100%;
+  height: 100%;
+  }
+/*----------------------*/
+/*-------Topo-----------*/
+.topo{
+  border: 1px solid #f30b45;
+  min-height: 200px;
+  
+
+}
+.divlogo{
+  border: 1px solid #e6f206;  
+  margin-left: 10px;
+  margin-top: 0px;
+  min-height: 100px;
+}
+  /*--------------------------medias querys-topo---------------------------------*/
+  @media(max-width: 770px){
+    .query-frase{
+    display: none;
+    }
+  }
+  /*---------------------------------------------------------*/
+  @media(max-width: 770px){
+    .search-box{
+    display: none;
+    }
+  }
+  /*------------------------------------------------------------------*/
+

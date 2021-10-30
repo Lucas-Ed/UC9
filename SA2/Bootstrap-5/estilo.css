@@ -1,0 +1,282 @@
+/*------------------Estrutura da página------------------*/
+.cor-fundo{
+  background-color: #121314;
+ /* border : 1px solid rgb(242, 11, 11);*/
+  }
+
+/*------------------------Footer------------------------*/
+.copy{
+   
+    /*border: 1px solid rgb(242, 8, 8);*/
+    background-color: #121314
+}
+.colu1{
+  
+    /*border: 1px solid rgb(156, 242, 8);*/
+    background-color: #121314
+}
+.colu2{
+    background-color: #121314
+    /*border: 1px solid rgb(8, 238, 242);*/
+}
+.colu3{
+    background-color: #121314
+    /*border: 1px solid rgb(152, 8, 242);*/
+}
+.colu4{
+    background-color: #121314;
+   /* border: 1px solid rgb(242, 109, 8);*/
+}
+.vazio{
+   
+    /*border: 1px solid rgb(191, 242, 8);*/
+
+}
+.Carousel-2{
+   
+    /*border: 1px solid rgb(8, 35, 242);*/
+
+}
+.mini-logo{
+    max-width: 50px;
+   /* border: 1px solid rgb(242, 8, 63);*/
+    margin-left: 350px;
+    top: -10px;
+}
+.footer-pagamentos{
+    /*border: 1px solid rgb(64, 21, 216);*/
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+/*------Redes-Sociais--------------*/
+.redes-sociais{
+    background-color: #121314;
+    /*border: 1px solid rgb(15, 72, 6);*/
+    max-height: 200px;/*Altura*/
+    max-width: 150px;
+    margin-left: 20px;
+}
+  .rdp:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .rdp:visited {
+    
+    text-decoration: none;
+    color: white; 
+    
+  }
+  
+  .rdp:hover {
+    letter-spacing: 3px;
+    color: white;
+    -webkit-transition: 0.2s ease-out;
+    -moz-transition: 0.2s ease-out;
+    -o-transition: 0.2s ease-out;
+    transition: 0.2s ease-out;
+  }
+  
+  #you{
+      font-size: 20px;
+  }
+  #insta{
+    font-size: 20px;
+  }
+  #face{
+    font-size: 20px;
+  }
+  #you{
+    font-size: 20px;
+  }
+  #twiter{
+    font-size: 20px;
+  }
+   /*-------------------------*/
+  /*------Atendimento---------*/
+  .footer-box__contato {
+    background-color: #121314;
+    margin-top: 30px;
+    margin-left: 80px;
+  }
+  /*-------------------------*/
+  /*--------carousel--------*/
+  .body-0-1{
+    background-color: #292828de;
+    /*border: 1px solid rgb(240, 240, 4);*/
+   
+  }
+  .banner{
+    /*background-color:honeydew;*/
+    height: 148px;/*Altura*/
+    width: 90%;/*Largura*/
+    margin-top: 0px;
+    
+    align-items:center;
+    margin-left: 15%;
+    /*border: 1px solid rgb(24, 235, 13);*/
+  }
+  .body-1{
+    background-color: #292828de;
+     
+    /* border: 1px solid rgb(43, 13, 235);*/
+   }
+  .carousel-1{
+    background-color:#444343;
+    height: 300px;/*Altura*/
+    width: 80%;/*Largura*/
+    margin-top: 0px;
+    margin-left: 0px;
+    align-items:center;
+    margin-left: 0px;
+    /*border: 1px solid rgb(24, 235, 13);*/
+  }
+  .body-2{
+    background-color: #292828de;
+    
+    /*border: 1px solid rgb(231, 13, 235);*/
+  }
+  .carousel-2{
+    background-color:#444343;
+    height: 300px;/*Altura*/
+    width: 80%;/*Largura*/
+    margin-top: 0px;
+    margin-left: 10px;
+    align-items:center;
+    margin-left: 0px;
+    /*border: 1px solid rgb(233, 245, 9);*/
+  }
+/*-------------------------------------------------------*/
+/*------------------------menu--------------------------*/
+.menu{
+    /*border: 1px solid rgb(127, 14, 208);*/
+    background-color: #121314;
+    margin-left: -20px;
+}
+@media(max-width: 70px){
+    .btn-outline-success{
+    display: none;
+    }
+  }
+  .alinha{
+   margin-left: 0px;
+  }
+  .hamb-div{
+  margin-left: 0%;
+  width: 100%;
+  height: 100%;
+  }
+  /*---------------------------------------------------------------*/
+  /*--------------------------Header--------------------------*/
+  .topo{
+
+    /*border: 1px solid rgb(15, 72, 6);*/
+    min-height: 300px;/*Altura*/
+    margin-left: 0px;
+   
+    
+  }
+  .logos{
+
+    /*border: 1px solid rgb(6, 72, 62);*/
+    min-height: 300px;/*Altura*/
+    margin-left: -05px;
+    background-color: #121314;
+   
+    
+  }
+  .search{
+    /*border: 1px solid rgb(40, 14, 208);*/
+    /*background-color: #121314;*/
+    margin-top: 0px;
+    margin-left: 1350px;
+    width: 300px; ;
+    height: 60px;
+  }
+  .frase{
+    /*border: 1px solid rgb(208, 14, 27);*/
+    /*background-color: #121314;*/
+    margin-top: -30px;
+    margin-left: 380px;
+    width: 900px; 
+    height: 110px;
+  }
+  .logo{
+    /*border: 1px solid rgb(239, 7, 223);*/
+    /*background-color: #121314;*/
+    margin-top: -100px;
+    margin-left: 0px;
+    width: 320px; 
+    height: 300px;
+  }
+  /*---------------------------------------------------------------*/
+  .search-box{
+    position: absolute;
+    top: 5%;
+    left: 92%;
+    transform: translate(-50%,-50%);
+    background: white;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    border: 1px solid #8cff00;
+}
+.search-btn{
+    color: #8cff00;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #384835;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width:0px;
+}
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+    background: white;
+}
+   /*--------------------------medias querys-topo---------------------------------*/
+   @media(max-width: 770px){
+    .frase{
+    display: none;
+    }
+  }
+  /*---------------------------------------------------------*/
+  @media(max-width: 770px){
+    .search{
+    display: none;
+    }
+  }
+
+  /*------------------------------------------------------------------*/
+  /*--------------------------Login---------------------------------*/
+  .login{
+    /*border: 1px solid rgb(72, 6, 27);*/
+   /* background-color: #121314;*/
+  }
+/*---------------------------Jogos------------------------------------*/
+.jogos{
+  /*border: 1px solid rgb(15, 4, 220);*/
+  width:350px;
+  height: 290px;
+  margin-left: 120px;
+
+}
