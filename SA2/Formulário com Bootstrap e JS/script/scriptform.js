@@ -39,6 +39,19 @@ function Verifica(){
         alert("Formulário enviado com sucesso");
         return true;
     }
+   
 
 
 }
+// != Negação
+//Atividade SA2 - Encontro Presencial 4
+//Ativar Botão Enviar formilário asomente quando todos os campos estiverem preenchidos.
+$('#validationCustom05, #validationCustom01, #forme').change(function(){
+    var cep = $("#validationCustom05").val();
+    var nome = $("#validationCustom01").val();
+    if(cep != null && nome != null){
+       $('.btn').removeAttr('disabled');
+}else{
+    $('.btn').attr('disabled');
+}
+})
