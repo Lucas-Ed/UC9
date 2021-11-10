@@ -1,5 +1,11 @@
 .body{
-    border: 1px solid #0804f5;
-    margin-left: 50px;
+    margin-left: 400px;
+    top:50%;
     
 }
+.row{
+    top:50%;
+    background: linear-gradient(45deg, #000201, #05f752);
+}
+
+#forme{border: 2px solid white;}

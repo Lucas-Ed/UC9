@@ -1,0 +1,331 @@
+.corfundo{
+    /*border: 2px solid rgb(240, 7, 7);*/
+    max-height: 10000px;
+}
+.colunas-roda {
+    /*border: 1px solid rgb(239, 13, 13);*/
+    background-color: #121314;
+}
+.colunas-vazio {
+    /*border: 1px solid rgb(43, 13, 239);*/
+}
+.carousel-1 {
+   /* border: 1px solid rgb(62, 239, 13);*/
+    background-color:#444343;
+}
+.carousel-2 {
+    /*border: 1px solid rgb(239, 13, 224);*/
+    background-color:#444343;
+}
+.banner {
+   /* border: 1px solid rgb(6, 34, 244);*/
+}
+.menu {
+    /*border: 1px solid rgb(244, 6, 89);*/
+}
+.topo {
+    /*border: 1px solid rgb(232, 244, 6);*/
+    background-color: #121314;
+}
+.topo-logo {
+  /*border: 1px solid rgb(244, 6, 42);*/
+  background-color: #121314;
+}
+/*----Banner-----*/
+.banner{
+    /*background-color:honeydew;*/
+    height: 148px;/*Altura*/
+    width: 90%;/*Largura*/
+    margin-top: 0px;
+    
+    align-items:center;
+    margin-left: 15%;
+    /*border: 1px solid rgb(24, 235, 13);*/
+  }
+  .body-0-1{
+    /*background-color: #292828de;*/
+    /*border: 1px solid rgb(16, 4, 240);*/
+     background-color:#444343;
+  }
+/*---------------------*/
+/*-------Footer--------*/
+.mini-logo{
+    max-width: 50px;
+   /* border: 1px solid rgb(242, 8, 63);*/
+    margin-left: 350px;
+    top: -10px;
+}
+.colu-4{
+   /* background-color: #121314;*/
+    /*border: 1px solid rgb(242, 109, 8);*/
+}
+.colu3{
+    background-color: #121314
+    /*border: 1px solid rgb(152, 8, 242);*/
+}
+/*---------------------*/
+/*------Redes-Sociais--------------*/
+.redes-sociais{
+    background-color: #121314;
+    /*border: 1px solid rgb(15, 72, 6);*/
+    max-height: 200px;/*Altura*/
+    max-width: 150px;
+    margin-left: 20px;
+}
+  .rdp:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .rdp:visited {
+    
+    text-decoration: none;
+    color: white; 
+    
+  }
+  
+  .rdp:hover {
+    letter-spacing: 3px;
+    color: white;
+    -webkit-transition: 0.2s ease-out;
+    -moz-transition: 0.2s ease-out;
+    -o-transition: 0.2s ease-out;
+    transition: 0.2s ease-out;
+  }
+  
+  #you{
+      font-size: 20px;
+  }
+  #insta{
+    font-size: 20px;
+  }
+  #face{
+    font-size: 20px;
+  }
+  #you{
+    font-size: 20px;
+  }
+  #twiter{
+    font-size: 20px;
+  }
+   /*-------------------------*/
+  /*------Atendimento---------*/
+  .colu1{
+  
+    
+    background-color: #121314
+}
+.footer-box__contato {
+    background-color: #121314;
+    margin-top: 30px;
+    margin-left: 80px;
+  }
+     /*-------------------------*/
+
+ /*---------------------------Jogos------------------------------------*/
+.jogos{
+  /*border: 1px solid rgb(15, 4, 220);*/
+  width:350px;
+  height: 290px;
+  margin-left: 120px;
+  
+
+}
+.inner-dot {
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  cursor: pointer
+}
+.product {
+  padding: 10px;
+  background-color: #fff;
+  position: relative
+}
+/*------------Menu----------------------------*/
+.menu{
+  background-color: #121314;
+}
+.logo-menu {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background: #121314;
+  height: 8vh;
+  margin-left: -150px;
+}
+
+
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  letter-spacing: 2px;
+  margin-left: 250px;
+}
+
+.mobile-menu {
+  border: 2px dotted rgb(56, 245, 3);
+  margin-left: 50px;
+  width:50px;
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+  margin-left: 7px;
+  transition: 0.3s;
+}
+
+@media (max-width: 999px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-list {
+    position: absolute;
+    top: 2vh;
+    right: 0;
+    width: 50vw;
+    height: 40vh;
+    margin-left: -40px;
+    background: #121314;
+    border: 1px dotted rgb(56, 245, 3);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+  .nav-list li {
+    margin-left: 0;
+    opacity: 0;
+  }
+  .mobile-menu {
+    display: block;
+  }
+}
+
+.nav-list.active {
+  transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+ /*---------------------------------------------------------*/
+ @media(max-width: 770px){
+  .search{
+  display: none;
+  }
+}
+@media(max-width: 770px){
+  #frase01{
+  display: none;
+  }
+}
+/*-----Search----------*/
+.search{
+  /*border: 1px solid rgb(40, 14, 208);*/
+  /*background-color: #121314;*/
+  margin-top: -50px;
+  margin-left: 1350px;
+  width: 300px; ;
+  height: 60px;
+}
+.search-box{
+  position: absolute;
+  top: 5%;
+  left: 92%;
+  transform: translate(-50%,-50%);
+  background: white;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+  border: 1px solid #8cff00;
+}
+.search-btn{
+  color: #8cff00;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #384835;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 2s;
+}
+.search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width:0px;
+}
+.search-box:hover > .search-txt{
+  width: 240px;
+  padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+  background: white;
+}
+
+

@@ -1,0 +1,50 @@
+
+.historia{
+    background-color: #444343;
+    height: 250px;/*Altura*/
+    width: 1000px;/*Largura*/
+    margin-top: -200px;
+    margin-left: 50px;
+    margin-right:40px;
+    
+}
+.corpo{
+    background-color:#444343;
+   
+   
+}
+
+.loja-1{
+    background-color: #444343;
+    height: 450px;/*Altura*/
+    width: 25%;/*Largura*/
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right:40px;
+    
+}
+.loja-2{
+    background-color: #444343;
+    height: 450px;/*Altura*/
+    width: 25%;/*Largura*/
+    margin-top: -450px;
+    margin-left: 500px;
+    margin-right:40px;
+}
+.loja-3{
+    background-color: #444343;
+    height: 450px;/*Altura*/
+    width: 25%;/*Largura*/
+    margin-top: -450px;
+    margin-left: 1000px;
+}
+@media(max-width: 750px){
+    .corpo{
+    height: 600px;
+    }
+  }
+  @media(max-width: 500px){
+    #copy{
+    display: none;
+    }
+  }
