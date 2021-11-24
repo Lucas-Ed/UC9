@@ -1,4 +1,7 @@
-# ProjetoAngular
+#Projeto UC9 | SA3-Senai
+*Feiro em:
+[](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+[](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ## Lista dos comandos no Angular-CLI
 
@@ -48,23 +51,20 @@ cd projeto : ng serve --port 333 -o     Executar o server em uma porta específi
 - Criar o roteamento para o home component.ts no arquivo  app.routing.modele.ts
 - Digitar o caminho com path e chamar o component: 
 ----------------------------------------------------------------------------------------------
-- * criar o service para a comunicação com o backend com o comando: ng g s shared/service/live
+- criar o service para a comunicação com o backend com o comando: ng g s shared/service/live
 - Definir a URL.
 - Gerar um novo módulo: ng g module nome do modulo
 - usar um componente dentro de outro:
   1° copiar o selector do componente que será usado, exemplo: selector: 'app-header'
   - Na pagína que será exibida, criar uma tag com o nome do selector exemplo: <app-header></app-header>
-
-
--Instalar Bootstrap: npm install --save bootstrap
-em angular.json colocar em styles[]: "./node_modules/bootstrap/dist/css/bootstrap.css"// importação do bootstrap
-e incluir tbm o js : "./node_modules/bootstrap/dist/js/bootstrap.min.js"
-incluir o jquery, comando: npm install --save jquery e incluir em angular.json-scripts[ "./node_modules/jquery/dist/jquery.js"]
+- Instalar Bootstrap: npm install --save bootstrap
+- Em angular.json colocar em styles[]: "./node_modules/bootstrap/dist/css/bootstrap.css"// importação do bootstrape incluir tbm o js : "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+- Incluir o jquery, comando: npm install --save jquery e incluir em angular.json-scripts[ "./node_modules/jquery/dist/jquery.js"]
 ---------------------------------------------------------------------------------------------
-impotar ícones angular material
+* impotar ícones angular material
 
--Importar o modulo do componente em app.modulo.
--copiar os códigos do site material.angular.io 
+- Importar o modulo do componente em app.modulo.
+- copiar os códigos do site material.angular.io 
 --------------------------------------------------------------------------------------------
                       ***Simular backend***
  - criar uma pasta chamada backend: mkdir backend
