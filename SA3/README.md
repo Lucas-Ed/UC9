@@ -1,7 +1,5 @@
-#Projeto UC9 | SA3-Senai
-*Feiro em:
-[](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-[](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+#Projeto UC9 | SA3-Senai, feito em Angular.
+
 
 ## Lista dos comandos no Angular-CLI
 
